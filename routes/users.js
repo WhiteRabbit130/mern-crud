@@ -93,7 +93,6 @@ router.post('/', postLimiter, (req, res) => {
 
 // UPDATE
 router.put('/:id', (req, res) => {
-
   // Validate the age
   let age = sanitizeAge(req.body.age);
   if (age < 5 && age != '') return res.status(403).json({ success: false, msg: `You're too young for this.` });
