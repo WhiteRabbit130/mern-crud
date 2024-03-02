@@ -58,7 +58,6 @@ class App extends Component {
   handleUserUpdated(user) {
     let users = this.state.users.slice();    
     let i = users.findIndex(u => u._id === user._id)
-
     if (users.length > i) { users[i] = user }
 
     this.setState({ users: users });
