@@ -121,7 +121,6 @@ class FormUser extends Component {
   }
 
   render() {
-
     const formClassName = this.state.formClassName;
     const formSuccessMessage = this.state.formSuccessMessage;
     const formErrorMessage = this.state.formErrorMessage;
