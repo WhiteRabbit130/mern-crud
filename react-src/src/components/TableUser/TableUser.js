@@ -7,7 +7,6 @@ import ModalConfirmDelete from '../ModalConfirmDelete/ModalConfirmDelete';
 class TableUser extends Component {
 
   render() {
-
     let users = this.props.users;
 
     users = users.map((user) => 
