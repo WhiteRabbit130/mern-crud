@@ -20,7 +20,6 @@ class ModalConfirmDelete extends Component {
   handleClose = e => this.setState({ modalOpen: false });
 
   handleSubmit(e) {
-
     let params = e.target.getAttribute('data-userID');
 
     axios({
