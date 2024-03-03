@@ -4,7 +4,6 @@ import { Button, Modal } from 'semantic-ui-react';
 import FormUser from '../FormUser/FormUser';
 
 class ModalUser extends Component {
-
   render() {
     return (
       <Modal
