@@ -3,7 +3,6 @@ import { Button, Modal } from 'semantic-ui-react';
 import axios from 'axios';
 
 class ModalConfirmDelete extends Component {
-
   constructor(props) {
     super(props);
 
