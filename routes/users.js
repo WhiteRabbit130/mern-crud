@@ -188,6 +188,7 @@ sanitizeAge = (age) => {
   if (isNaN(age) && age != '') return '';
   return (age === '') ? age : parseInt(age);
 }
+
 sanitizeGender = (gender) => {
   // Return empty if it's neither of the two
   return (gender === 'm' || gender === 'f') ? gender : '';
