@@ -5,7 +5,6 @@ import ModalUser from '../ModalUser/ModalUser';
 import ModalConfirmDelete from '../ModalConfirmDelete/ModalConfirmDelete';
 
 class TableUser extends Component {
-
   render() {
     let users = this.props.users;
 
