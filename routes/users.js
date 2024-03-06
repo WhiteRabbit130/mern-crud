@@ -182,6 +182,7 @@ sanitizeName = (name) => {
 sanitizeEmail = (email) => {
   return email.toLowerCase();
 }
+
 sanitizeAge = (age) => {
   // Return empty if age is non-numeric
   if (isNaN(age) && age != '') return '';
