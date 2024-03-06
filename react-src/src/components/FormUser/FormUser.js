@@ -9,7 +9,6 @@ const genderOptions = [
 ]
 
 class FormUser extends Component {
-
   constructor(props) {
     super(props);
     
