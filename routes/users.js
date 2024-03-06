@@ -178,6 +178,7 @@ module.exports = router;
 sanitizeName = (name) => {
   return stringCapitalizeName(name);
 }
+
 sanitizeEmail = (email) => {
   return email.toLowerCase();
 }
